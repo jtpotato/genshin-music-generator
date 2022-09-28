@@ -5,10 +5,8 @@ V2 - removed violin scores. 3 layers, 128 nodes
 
 V3 - 6 layers, 128 nodes, locally trained.
 
-V4 - Discovered V3 had terrible accuracy. Reduced to 4 layers, 128,256,256,128 nodes.
+V4 - Discovered V3 had terrible accuracy. Reduced to 3 layers, 256 nodes.
+> Learning as I'm going, I have no idea what I'm doing lol...
 
 # Other
 Conda with Python 3.6 is highly recommended.
-
-# After properly installing CUDA 11.7
-`export PATH=/usr/local/cuda-11.7/bin${PATH:+:${PATH}}`
