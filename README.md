@@ -8,5 +8,10 @@ V3 - 6 layers, 128 nodes, locally trained.
 V4 - Discovered V3 had terrible accuracy. Reduced to 3 layers, 256 nodes.
 > Learning as I'm going, I have no idea what I'm doing lol...
 
+V5 - V4 was still pretty rubbish, but did much better. 3 layers, 512 nodes. Tried to add more training data.
+> I actually have no idea what I'm doing.
+
+V6 - V5 was much improved from V4. Realised that a thing called "overfitting" was happening. Reduced to 2 layers, 512 nodes.
+
 # Other
 Conda with Python 3.6 is highly recommended.
