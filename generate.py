@@ -1,4 +1,4 @@
 import os
 import variables
 
-os.system(f"performance_rnn_generate --config={variables.CONFIG} --run_dir={variables.RUN_DIR} --hparams={variables.HPARAMS} --output_dir={variables.OUTPUT_DIR} --num_outputs=10 --num_steps=6000 --primer_melody=[64]")
+os.system(f"polyphony_rnn_generate --run_dir={variables.RUN_DIR} --hparams=\"{variables.HPARAMS}\" --output_dir={variables.OUTPUT_DIR} --num_outputs=10 --num_steps=512 --primer_pitches=\"[64]\" --condition_on_primer=true --inject_primer_during_generation=false")

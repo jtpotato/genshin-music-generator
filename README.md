@@ -14,7 +14,7 @@ V5 - V4 was still pretty rubbish, but did much better. 3 layers, 512 nodes. Trie
 V6 - V5 was much improved from V4. Realised that a thing called "overfitting" was happening. Reduced to 2 layers, 512 nodes.
 - Post-training notes. Overfitting at 3000. 2500 may be more optimal.
 
-V7 - Using a different neural network that doesn't care about dynamics.
+V7 - Using a different neural network that doesn't care about dynamics. Reducing to 2 layers, 64 nodes, as this one works differently.
 
 # Other
 Conda with Python 3.6 is highly recommended.
