@@ -16,5 +16,7 @@ V6 - V5 was much improved from V4. Realised that a thing called "overfitting" wa
 
 V7 - Using a different neural network that doesn't care about dynamics. Reducing to 2 layers, 64 nodes, as this one works differently.
 
+V8 - Trying to mitigate any plateaus, so we can reach approximately 90% accuracy.
+
 # Other
 Conda with Python 3.6 is highly recommended.
