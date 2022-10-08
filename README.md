@@ -18,5 +18,7 @@ V7 - Using a different neural network that doesn't care about dynamics. Reducing
 
 V8 - Trying to mitigate any plateaus, so we can reach approximately 90% accuracy.
 
+V9 - Accelerating training speed to reach 95%. Decidedly, 95% is optimal.
+
 # Other
 Conda with Python 3.6 is highly recommended.
