@@ -7,6 +7,8 @@ In essence:
 3. OPTIONAL - Set up CUDA, CuDNN and i have no idea what else... just make sure Tensorflow is *capable* of using the GPU - in some workloads this makes things slower - so by default `training.py` uses the CPU.
 4. Run the python scripts. Any variables to tweak are in `variables.py`. Good luck! **You'll need it.**
 
+A pre-trained model has been included (`model.mag`). Use it if you wish - I assume you've read the Magenta documentation enough to know how to do that.
+
 # Changelog
 V1 - Initial model. Included a few violin scores, 3 layers, 128 nodes.
 
