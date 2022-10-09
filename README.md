@@ -1,3 +1,12 @@
+# Guide
+WARNING: This is a hastily written guide that assumes a bunch of prerequesite information. Don't expect to be able to do anything without some experience in setting up Ubuntu/WSL, Tensorflow, Python and Bash.
+
+In essence:
+1. Install WSL 2.0
+2. Use the Magenta preinstall script (https://github.com/magenta/magenta#automated-install-w-anaconda)
+3. OPTIONAL - Set up CUDA, CuDNN and i have no idea what else... just make sure Tensorflow is *capable* of using the GPU - in some workloads this makes things slower - so by default `training.py` uses the CPU.
+4. Run the python scripts. Any variables to tweak are in `variables.py`. Good luck! **You'll need it.**
+
 # Changelog
 V1 - Initial model. Included a few violin scores, 3 layers, 128 nodes.
 
@@ -19,6 +28,3 @@ V7 - Using a different neural network that doesn't care about dynamics. Reducing
 V8 - Trying to mitigate any plateaus, so we can reach approximately 90% accuracy.
 
 V9 - Accelerating training speed to reach 95%. Decidedly, 95% is optimal.
-
-# Other
-Conda with Python 3.6 is highly recommended.
